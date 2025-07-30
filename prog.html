@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css">
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+
+#name{
+height: 50px;
+background-color:burlywood;
+width: 95%;
+margin: auto;
+text-align: center;
+margin-bottom: 3%;
+margin-top: 2%;
+padding-top: 2%;
+border-radius: 12px;
+
+}
+
+.list{
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 1.5); */
+    height: 650px;
+    width: 18%;
+    display: grid;
+    text-align: center;
+    padding-right: 2%;
+    font-size: 26px;
+    /* border-radius: 12px; */
+    /* margin-left: 1%; */
+    /* margin-top: 10%; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: #ddd;
+    
+}
+.list ul li{
+    margin-top: 12%;
+}
+
+.list ul li a{
+  text-decoration: none;
+    color: #ddd; 
+}
+
+.display{
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 1.5); */
+    width: 80%;
+    /* margin-top: 10%; */
+    /* margin-right: 1%; */
+    /* border-radius: 24px; */
+    /* height: 640px; */
+    right: 0;
+    position: absolute;
+    height: auto;
+    padding-bottom: 3%;
+    background-color: black;
+}
+
+
+.section-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: black;
+  color: #ddd;
+  height: auto;
+  background-color: aqua;
+  color: black;
+  width: 90%;
+  margin-left: 3%;
+  margin-top: 5%;
+  padding-top: 3%;
+}
+.image-container {
+  width: 50%;
+  margin-left: 2%;
+  margin-top: 4%;
+}
+.image-container img {
+  width: 80%;
+  border-radius: 10px;
+  padding-bottom: 10%;
+  padding-left: 7%;
+}
+.info-container {
+  width: 70%;
+  /* text-align: center; */
+}
+.info-container h1 {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 4%;
+}
+.info-container p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.points{
+  margin: 0;
+  font-size: 20px;
+  font-weight: 900;
+  margin-left: 5%;
+  padding-bottom: 5%;
+}
+
+    </style>
+</head>
+<body>
+    
+    <section id="container">
+      <div class="list">
+        <ul type="none">
+            <li style="padding-bottom: 30%;"><a href="maashi.html"> QUANTUM <br> COACHING</a></li>
+        <li><a href="#c"> C Programming </a></li>
+        <li><a href="#cpp"> C ++ </a></li>
+        <li><a href="#python"> Python </a></li>
+        <li><a href="#java"> JAVA </a></li>
+        <li><a href="#js"> JavaScript </a></li>
+        </ul>
+      </div>
+      <div class="display"> 
+        <div id="name">
+            <h1>PROGRAMMING LANGUAGES</h1>
+        </div>
+       
+        <section id="c">
+          <div class="section-container">
+            <div class="image-container">
+                <img src="c.jpg" title="C Programming" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></img>
+            </div>
+            <div class="info-container">
+                <h1 id="akat" align="center">●   C programming   ●  </h1>
+                <p>
+                  <ul class="points">
+                    <li>C is a versatile and powerful programming language known for its efficiency and portability.</li>
+                  <li>Developed in the 1970s, C has stood the test of time and remains widely used in system/software development, operating systems, and embedded systems.</li>
+                  <li>Its simple syntax and low-level features provide direct access to hardware resources, making it ideal for performance-critical applications.</li>
+                  <li>C is the foundation of many modern programming languages and operating systems, including Unix/Linux.</li>
+                  <li>Learning C provides a solid understanding of computer architecture, memory management, and programming fundamentals.</li>
+                  </ul>
+                   </p>
+                
+            </div>
+          </div>
+        </section>
+
+        <section id="cpp">
+          <div class="section-container">
+           
+            <div class="info-container">
+             <h1 id="akat" align="center">●   C ++ ● </h1>
+               <p> 
+                <ul class="points">
+                  <li> C++ is a powerful, high-performance language used in system/software development, gaming, and embedded systems.</li>
+                    <li>It supports both procedural and object-oriented programming, offering direct hardware access and memory management.</li>
+                    <li>Known for its efficiency and versatility, C++ is suitable for resource-intensive tasks.</li>
+                    <li>Learning C++ provides a solid foundation in memory management, data structures, and low-level programming concepts.</li>
+                </ul>
+              </p>
+            </div>
+            <div class="image-container">
+                <img src="c++.png" title="C++ IMAGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></img>
+            </div>
+          </div>
+        </section>
+         
+        <section id="python">
+          <div class="section-container">
+            <div class="image-container">
+                <img src="python.jpg" title="Python IMAGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></img>
+            </div>
+            <div class="info-container">
+                <h1 id="akat" align="center">●  Python ● </h1>
+                <p>  <ul class="points">
+                  <li>Python is a versatile, interpreted language known for simplicity and readability.</li>
+                  <li>Widely used in web development, data analysis, AI, and automation due to its extensive libraries.</li>
+                  <li>Its clean syntax and dynamic typing enable rapid development and prototyping.</li>
+                  <li>Python's popularity stems from its ease of learning and applicability across various domains.</li>
+                </ul>
+              </p>
+             
+            </div>
+          </div>
+        </section>
+         
+
+        <section id="java">
+          <div class="section-container">
+           
+            <div class="info-container">
+                <h1 id="akat" align="center">●  JAVA ● </h1>
+                <p>  
+                  <ul class="points">
+                 <li>Java is a robust, platform-independent language for enterprise applications and Android development.</li>
+                 <li>Its "write once, run anywhere" philosophy makes it highly portable.</li>
+                 <li>With strong typing and object-oriented nature, Java ensures reliability and scalability.</li>
+                 <li>A rich ecosystem of libraries and frameworks supports scalable, secure applications.</li>
+                </ul>
+              </p>
+             
+            </div>
+            <div class="image-container">
+              <img src="JAVA.png" title="JAVA IMAGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></img>
+          </div>
+
+          </div>
+        </section>
+
+          <section id="js">
+            <div class="section-container">
+              <div class="image-container">
+                  <img src="javscript.png" title="JavaScript IMAGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></img>
+              </div>
+              <div class="info-container">
+                  <h1 id="akat" align="center">●  JavaScript ● </h1>
+                  <p>  <ul class="points">
+                   <li>JavaScript is a dynamic scripting language used primarily for client-side web development.</li>
+                   <li>Facilitates interactive web pages and dynamic content through DOM manipulation.</li>
+                   <li>Node.js enables server-side development, fostering full-stack JavaScript development.</li>
+                   <li>Frameworks like React.js, Angular, and Vue.js simplify building complex web applications.</li>
+                   <li>JavaScript's ubiquity and versatility make it essential for web development.</li>
+                  </ul>
+                </p>
+               
+              </div>
+            </div>
+          </section>
+
+        </div>
+    </section>
+ 
+</body>
+</html>

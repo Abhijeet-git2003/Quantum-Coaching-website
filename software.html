@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css">
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+
+#name{
+height: 50px;
+background-color:burlywood;
+width: 95%;
+margin: auto;
+text-align: center;
+margin-bottom: 3%;
+margin-top: 2%;
+padding-top: 2%;
+border-radius: 12px;
+
+}
+
+.list{
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 1.5); */
+    height: 650px;
+    width: 18%;
+    display: grid;
+    text-align: center;
+    padding-right: 2%;
+    font-size: 22px;
+    /* border-radius: 12px; */
+    /* margin-left: 1%; */
+    /* margin-top: 10%; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: #ddd;
+    
+}
+.list ul li{
+    margin-top: 12%;
+}
+
+.list ul li a{
+  text-decoration: none;
+    color: #ddd; 
+}
+
+.display{
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 1.5); */
+    width: 80%;
+    /* margin-top: 10%; */
+    /* margin-right: 1%; */
+    /* border-radius: 24px; */
+    /* height: 640px; */
+    right: 0;
+    position: absolute;
+    height: auto;
+    padding-bottom: 3%;
+    background-color: black;
+}
+
+
+.section-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: black;
+  color: #ddd;
+  height: auto;
+  background-color: darkolivegreen;
+  color: black;
+  width: 90%;
+  margin-left: 3%;
+  margin-top: 5%;
+  padding-top: 3%;
+}
+.image-container {
+  width: 50%;
+  margin-left: 2%;
+  margin-top: 4%;
+}
+.image-container img {
+  width: 80%;
+  border-radius: 10px;
+  padding-bottom: 10%;
+  padding-left: 7%;
+}
+.info-container {
+  width: 70%;
+  /* text-align: center; */
+}
+.info-container h1 {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 4%;
+}
+.info-container p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.points{
+  margin: 0;
+  font-size: 20px;
+  font-weight: 900;
+  margin-left: 5%;
+  padding-bottom: 5%;
+}
+
+    </style>
+</head>
+<body>
+    
+    <section id="container">
+      <div class="list">
+        <ul type="none">
+            <li style="padding-bottom: 30%; font-size: 26px;"> <a href="maashi.html"> QUANTUM <br> COACHING</a></li>
+        <li><a href="#dsa"> Data Structures & Algorithms </a></li>
+        <li><a href="#oop"> Object Oriented Programming </a></li>
+        <li><a href="#sdp"> Software Design pattern </a></li>
+        <li><a href="#dbms"> Database Management System </a></li>
+        <li><a href="#asd"> Agile Software Dev </a></li>
+        </ul>
+      </div>
+      <div class="display"> 
+        <div id="name">
+            <h1>SOFTWARE DEVELOPMENT</h1>
+        </div>
+       
+        <section id="dsa">
+          <div class="section-container">
+            <div class="image-container">
+                <img src="dsa.jpg" title="DATA STRUCTURES & ALGORITHMS " frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></img>
+            </div>
+            <div class="info-container">
+                <h1 id="akat" align="center">●  Data Structures & Algorithms  ●  </h1>
+                <p>
+                  <ul class="points">
+                     <li>Algorithms are step-by-step procedures for solving problems, while data structures organize and store data efficiently.</li>
+                     <li>Mastery of algorithms and data structures is essential for writing efficient and scalable code.</li>
+                     <li>Understanding algorithmic complexity helps in analyzing performance and optimizing code.</li>
+                     <li>Data structures like arrays, linked lists, trees, and hash tables are fundamental building blocks in software development.</li>
+                     <li>Proficiency in algorithms and data structures improves problem-solving skills and software design.</li>
+                  </ul>
+                   </p>
+                
+            </div>
+          </div>
+        </section>
+
+        <section id="oop">
+          <div class="section-container">
+           
+            <div class="info-container">
+             <h1 id="akat" align="center">●  Object Oriented Programming ● </h1>
+               <p> 
+                <ul class="points">
+                <li>OOP is a programming paradigm based on the concept of "objects," which encapsulate data and behavior.</li>
+                <li>It promotes modularity, code reuse, and easier maintenance through concepts like inheritance, polymorphism, and encapsulation.</li>
+                <li>OOP fosters a more organized and intuitive way of structuring code, making it easier to manage and extend.</li>
+                <li>Languages like Java, C++, and C# are popular choices for implementing OOP principles.</li>
+                <li>Mastery of OOP enhances software design skills and promotes code readability and scalability.</li>
+                </ul>
+              </p>
+            </div>
+            <div class="image-container">
+                <img src="oop.png" title="Object Oriented Programming IMAGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></img>
+            </div>
+          </div>
+        </section>
+         
+        <section id="sdp">
+          <div class="section-container">
+            <div class="image-container">
+                <img src="" title="Software Design Pattern" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></img>
+            </div>
+            <div class="info-container">
+                <h1 id="akat" align="center">●  Software Design Pattern ● </h1>
+                <p>  
+                <ul class="points">
+                  <li>Design patterns are reusable solutions to common problems encountered in software design.</li> 
+                  <li>They provide best practices for designing flexible and maintainable software architectures.</li> 
+                  <li>Examples include Singleton, Factory, Observer, and MVC (Model-View-Controller).</li> 
+                  <li>Design patterns promote code reusability, modularity, and separation of concerns.</li> 
+                  <li>Understanding and applying design patterns improve software quality and facilitate code maintenance and evolution.</li> 
+                </ul>
+              </p>
+             
+            </div>
+          </div>
+        </section>
+         
+
+        <section id="dbms">
+          <div class="section-container">
+           
+            <div class="info-container">
+                <h1 id="akat" align="center">● Database Management System ● </h1>
+                <p>  
+                 <ul class="points">
+                    <li>DBMS is software for managing databases, which store and retrieve data efficiently.</li>
+                    <li>Relational database management systems (RDBMS) like MySQL, PostgreSQL, and SQL Server are widely used for structured data.</li>
+                    <li>NoSQL databases like MongoDB, Cassandra, and Redis handle unstructured and semi-structured data.</li>
+                    <li>DBMS concepts like normalization, indexing, and transaction management ensure data integrity and performance.</li>
+                    <li>Proficiency in DBMS is crucial for designing scalable, secure, and efficient data storage solutions.</li>
+                 </ul>
+              </p>
+             
+            </div>
+            <div class="image-container">
+              <img src="" title="DATABASE MANAGEMENT SYSTEM IMAGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></img>
+          </div>
+
+          </div>
+        </section>
+
+          <section id="asd">
+            <div class="section-container">
+              <div class="image-container">
+                  <img src="" title="Agile Software Development" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></img>
+              </div>
+              <div class="info-container">
+                  <h1 id="akat" align="center">● Agile Software Development ● </h1>
+                  <p>  
+                    <ul class="points">
+                      <li> Agile is an iterative approach to software development that emphasizes flexibility, collaboration, and customer feedback.</li>
+                      <li>Agile methodologies like Scrum, Kanban, and XP (Extreme Programming) promote adaptive planning and continuous improvement.</li>
+                      <li>Scrum involves short, time-boxed iterations called sprints, where cross-functional teams collaborate to deliver working software.</li>
+                      <li> Agile practices like daily stand-ups, sprint planning, and retrospective meetings foster transparency and accountability.</li>
+                      <li>Adopting Agile methodologies improves team productivity, accelerates time-to-market, and enhances customer satisfaction.</li>
+                  </ul>
+                </p>
+               
+              </div>
+            </div>
+          </section>
+
+        </div>
+    </section>
+ 
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mainp{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        gap:1.6rem;
+        align-items: flex-start;
+        padding: 2.2rem;
+        }
+
+        .block{
+         height: auto;
+         width:100%;
+         align-items: center;
+        margin: auto;
+        margin-top: 6rem;
+        text-align: center;
+        font-size: 0.1rem;
+        }
+
+        .mainp .block img{
+            border: 0.5rem solid black;
+            border-radius: 50%;
+            height: 13rem;
+            width: 15rem;
+        }
+
+        .mainp .block h1{
+            font-size: 2rem;
+            font-weight: 1000;
+            font-style: italic;
+        }
+
+        .mainp .block .content{
+            text-align: center;
+            font-size: 1.7rem;
+        }
+
+        .mainp .block .proBtn{
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+
+        .mainp .block .proBtn a{
+            color: #fff;
+            text-decoration: none;
+        }
+
+
+
+        #Bcontainer{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(36rem, 1fr));
+        gap:1rem;
+        align-items: flex-start;
+        /* padding: 1rem; */
+        text-align: center;
+        align-items: center;
+        /* padding-right: 4rem; */
+        }
+
+        #Bcontainer .Bimg{
+            height: auto;
+            width: 100%;
+        }
+
+        #Bcontainer .Bimg img{
+            height: 20rem;
+            max-width: 70%;
+            border-radius: 12%;
+            padding-top: 3rem;
+        }
+
+        #Bcontainer .Bcont{
+            font-size: 1.5rem;
+            text-align: center;
+            width: 100%;
+        }
+
+        #batch{
+            text-align: center;
+            background-color: black;
+            color: #fff;
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+        }
+
+        #batch .proBtn{
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 15px;
+        }
+
+        #batch .proBtn a{
+            color: #fff;
+            text-decoration: none; 
+        }
+
+
+    </style>
+</head>
+<body>
+    <section id="programs">
+        <h1 align="center">PROGRAMS</h1>
+        <div class="mainp">
+            <div class="block">
+                <img src="languages.png">
+                <h1 class="h1">Programming Languages</h1>
+                <p class="content">
+                    Programming languages are tools used to write instructions for computers to perform tasks. They vary in syntax and usage, catering to different types of applications and platforms. Examples include Java, Python, JavaScript, C++, and more.
+                </p>
+                <button class="proBtn">
+                    <a href="prog.html">know us</a>
+                </button>
+            </div>
+
+            <div class="block">
+                <img src="languages.png">
+                <h1 class="h1">Programming Languages</h1>
+                <p class="content">
+                    Web development involves building and maintaining websites and web applications. It encompasses various aspects such as front-end development (HTML/CSS, JavaScript), back-end development (Node.js, Django), databases, and frameworks like React.js, Angular, and Vue.js
+                </p>
+                <button class="proBtn">
+                    <a href="prog.html">know us</a>
+                </button>
+            </div>
+
+            <div class="block">
+                <img src="languages.png">
+                <h1 class="h1">Programming Languages</h1>
+                <p class="content">
+                    Software development focuses on creating applications and systems that meet specific user needs. It includes concepts like data structures and algorithms, object-oriented programming (OOP), database management (SQL, MongoDB), version control (Git), and practices like software development life cycle (SDLC) and DevOps
+                </p>
+                <button class="proBtn">
+                    <a href="prog.html">know us</a>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="batch">
+        <h1 class="h1">SPECIAL COURSE</h1>
+        <div id="Bcontainer">
+            <div class="Bimg">
+                <img src="SQAUD.jpg">
+            </div>
+            <div class="Bcont">
+                <h1 class="h1">👺 AKATSUKI 👺</h1>
+                Akatsuki course offers a unique fusion of coding education and Naruto's Akatsuki universe, providing a dynamic learning experience like no other. Dive into a curriculum intricately woven with Akatsuki themes and characters, mastering both fundamental and advanced coding techniques while honing problem-solving skills through immersive exercises. Guided by passionate instructors and supported by a vibrant community of fellow learners, CodeAkatsuki is the perfect environment to unleash your coding potential and become a true coding ninja. Join us today and embark on a journey where coding meets anime in the most epic way imaginable.
+            </div>
+        </div>
+        <button class="proBtn">
+            <a href="asform.php">Enroll Now</a>
+        </button>
+    </section>
+</body>
+</html>

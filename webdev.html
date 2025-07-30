@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css">
+    <style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+
+#name{
+height: 50px;
+background-color:burlywood;
+width: 95%;
+margin: auto;
+text-align: center;
+margin-bottom: 3%;
+margin-top: 2%;
+padding-top: 2%;
+border-radius: 12px;
+
+}
+
+.list{
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 1.5); */
+    height: 650px;
+    width: 18%;
+    display: grid;
+    text-align: center;
+    padding-right: 2%;
+    font-size: 26px;
+    /* border-radius: 12px; */
+    /* margin-left: 1%; */
+    /* margin-top: 10%; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: #ddd;
+    
+}
+.list ul li{
+    margin-top: 12%;
+}
+
+.list ul li a{
+  text-decoration: none;
+    color: #ddd; 
+}
+
+.display{
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 1.5); */
+    width: 80%;
+    /* margin-top: 10%; */
+    /* margin-right: 1%; */
+    /* border-radius: 24px; */
+    /* height: 640px; */
+    right: 0;
+    position: absolute;
+    height: auto;
+    padding-bottom: 3%;
+    background-color: black;
+}
+
+
+.section-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: black;
+  color: #ddd;
+  height: auto;
+  background-color: blueviolet;
+  color: black;
+  width: 90%;
+  margin-left: 3%;
+  margin-top: 5%;
+  padding-top: 3%;
+}
+.image-container {
+  width: 50%;
+  margin-left: 2%;
+  margin-top: 4%;
+}
+.image-container img {
+  width: 80%;
+  border-radius: 10px;
+  padding-bottom: 10%;
+  padding-left: 7%;
+}
+.info-container {
+  width: 70%;
+  /* text-align: center; */
+}
+.info-container h1 {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 4%;
+}
+.info-container p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.points{
+  margin: 0;
+  font-size: 20px;
+  font-weight: 900;
+  margin-left: 5%;
+  padding-bottom: 5%;
+}
+
+    </style>
+</head>
+<body>
+    
+    <section id="container">
+      <div class="list">
+        <ul type="none">
+            <li style="padding-bottom: 30%;"> <a href="maashi.html"> QUANTUM <br> COACHING</a></li>
+        <li><a href="#hc"> HTML & CSS </a></li>
+        <li><a href="#rjs"> React JS </a></li>
+        <li><a href="#njs"> Node JS </a></li>
+        <li><a href="#mdb"> Mongo DB </a></li>
+        <li><a href="#ejs"> Express JS </a></li>
+        </ul>
+      </div>
+      <div class="display"> 
+        <div id="name">
+            <h1>WEB DEVELOPMENT</h1>
+        </div>
+       
+        <section id="hc">
+          <div class="section-container">
+            <div class="image-container">
+                <img src="htmlcss.jpg" title="HTML & CSS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></img>
+            </div>
+            <div class="info-container">
+                <h1 id="akat" align="center">●  HTML & CSS  ●  </h1>
+                <p>
+                  <ul class="points">
+                     <li>HTML (Hypertext Markup Language) structures web content, while CSS (Cascading Style Sheets) styles it.</li>
+                     <li>HTML provides the skeleton of a webpage, defining its elements and structure.</li>
+                     <li>CSS enhances the appearance of HTML elements, controlling layout, colors, and fonts.</li>
+                     <li>Mastery of HTML/CSS is fundamental for creating visually appealing and user-friendly web interfaces.</li>
+                     <li>These technologies are essential for front-end web development.</li>
+                  </ul>
+                   </p>
+                
+            </div>
+          </div>
+        </section>
+
+        <section id="rjs">
+          <div class="section-container">
+           
+            <div class="info-container">
+             <h1 id="akat" align="center">●  React JS ● </h1>
+               <p> 
+                <ul class="points">
+                   <li>React.js is a JavaScript library for building user interfaces, developed by Facebook.</li>
+                   <li>It allows developers to create reusable UI components, improving code maintainability.</li>
+                   <li>React's virtual DOM and component-based architecture enhance performance and scalability.</li>
+                   <li>Widely used in single-page applications, React.js simplifies state management and UI updates.</li>
+                   <li>Its ecosystem includes tools like React Router and Redux for building robust web applications.</li>
+                </ul>
+              </p>
+            </div>
+            <div class="image-container">
+                <img src="reactjs.png" title="React JS IMAGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></img>
+            </div>
+          </div>
+        </section>
+         
+        <section id="njs">
+          <div class="section-container">
+            <div class="image-container">
+                <img src="nodejs.webp" title="Node JS IMAGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></img>
+            </div>
+            <div class="info-container">
+                <h1 id="akat" align="center">●  Node JS ● </h1>
+                <p>  <ul class="points">
+                 <li>Node.js is a server-side JavaScript runtime environment, enabling server-side scripting using JavaScript.</li>
+                 <li>It facilitates building scalable, event-driven applications with non-blocking I/O.</li>
+                 <li>Node.js is popular for building APIs, real-time web applications, and server-side rendering.</li>
+                 <li>Its ecosystem includes frameworks like Express.js for building RESTful APIs and web servers.</li>
+                 <li>With Node.js, developers can achieve full-stack JavaScript development, streamlining development workflows.</li>
+                </ul>
+              </p>
+             
+            </div>
+          </div>
+        </section>
+         
+
+        <section id="mdb">
+          <div class="section-container">
+           
+            <div class="info-container">
+                <h1 id="akat" align="center">● Mongo DB ● </h1>
+                <p>  
+                 <ul class="points">
+                   <li>MongoDB is a NoSQL database management system known for its flexibility and scalability.</li>
+                   <li>It stores data in flexible, JSON-like documents, offering a dynamic schema.</li>
+                   <li> MongoDB's document-oriented model allows for faster development and horizontal scalability.</li>
+                   <li> It's commonly used in web development for handling large volumes of unstructured data.</li>
+                   <li>MongoDB's features like sharding and replication ensure high availability and fault tolerance.</li>
+                 </ul>
+              </p>
+             
+            </div>
+            <div class="image-container">
+              <img src="mongodb.png" title="Mongo DB IMAGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></img>
+          </div>
+
+          </div>
+        </section>
+
+          <section id="ejs">
+            <div class="section-container">
+              <div class="image-container">
+                  <img src="expressjs.png" title="Express JS IMAGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></img>
+              </div>
+              <div class="info-container">
+                  <h1 id="akat" align="center">● Express JS ● </h1>
+                  <p>  
+                    <ul class="points">
+                     <li>Express.js is a minimalist web application framework for Node.js, designed for building APIs and web applications.</li>
+                     <li>It simplifies the process of handling HTTP requests, routing, and middleware integration.</li>
+                     <li>With Express.js, developers can quickly build scalable and modular web applications.</li>
+                     <li>Its middleware architecture allows for extensibility and customization.</li>
+                     <li>Express.js is well-suited for building RESTful APIs and MVC (Model-View-Controller) applications in Node.js.</li>
+                  </ul>
+                </p>
+               
+              </div>
+            </div>
+          </section>
+
+        </div>
+    </section>
+ 
+</body>
+</html>
